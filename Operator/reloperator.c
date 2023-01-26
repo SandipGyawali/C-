@@ -22,6 +22,9 @@ int main(){
      without();
     return 0;
 }
+
+//With using 3rd variable..
+
 void with(){
 
     int temp=0;
@@ -33,6 +36,9 @@ void with(){
     b=temp;
     printf("The values after swapped are a:%d and b:%d\n\n",a,b);
 }
+
+//Without using 3rd variable..
+
 void without(){
     printf("Enter two number:");
     scanf("%d %d",&a,&b);
