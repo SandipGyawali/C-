@@ -30,7 +30,7 @@ Logical NOT (!)
 X	!X
 0	1
 1	0
-
+git 
 -->All the logical operator are binary operator except logical not operator.
 */
 
