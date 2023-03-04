@@ -1,8 +1,8 @@
-
+/*
 program to read a matrix of size M*N from
 user and display it on screen.
 */
-/*
+
 #include<stdio.h>
 #include<conio.h>
 void main(){
