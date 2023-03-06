@@ -172,3 +172,41 @@ int main(){
      printf("The upper case string is:%s",str);
     return 0;
 }
+
+
+//checck wheather the string is palindrome or not
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main(){
+    char a[10],rev[10];
+    printf("Enter a string:");
+    scanf("%s",a);
+    strcpy(rev,a);
+    strrev(rev);
+    if(strcmp(a,rev)==0)
+   printf("The string is palindrome.");
+    else
+        printf("The string is not palindrome.");
+    return 0;
+}
+
+
+
+
+//checck wheather the string is palindrome or not
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main(){
+    char a[10],rev[10];
+    printf("Enter a string:");
+    scanf("%s",a);
+    strcpy(rev,a);
+    strrev(rev);
+    if(strcmp(a,rev)==0)
+   printf("The string is palindrome.");
+    else
+        printf("The string is not palindrome.");
+    return 0;
+}
