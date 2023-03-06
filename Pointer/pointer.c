@@ -1,7 +1,7 @@
 //question related to pointer..
 //nasalize yourself..
 // this programme will boost the concept of pointer,associativity and precedence order.
-/*
+
 #include<stdio.h>
 int main(){
     int a[]={10,11,-1,56,67,5,4};
@@ -15,7 +15,7 @@ int main(){
     printf("%d\n",*p+*q);
     return 0;
 }
-*/
+
 
 //2nd problem.....try to dry run and solve
 #include<stdio.h>
