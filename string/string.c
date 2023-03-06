@@ -129,3 +129,46 @@ void notUsing_strlower(){
   }
   printf("%s",name);
 }
+
+
+
+//program to read a string and count the number of vowels and consonants in it.
+//vowels a to u
+//consonants b to z
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main(){
+     char str[10],vowel=0,consonant=0;
+     gets(str);
+     printf("The string is:%s\n",str);
+     int i=0;
+     while(str[i]!='\0'){
+       if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u')
+         vowel++;
+            else
+            consonant++;
+            i++;
+     }
+     printf("The number of vowel is:%d\n",vowel);
+     printf("The number of consonant is:%d",consonant);
+
+    return 0;
+}
+
+
+
+//print the string in upper case letter.
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main(){
+     char str[10]="SANdip";
+     for(int i=0;str[i]!='\0';i++){
+       if(str[i]>=97 && str[i]<=122){
+          str[i]-=32;
+       }
+     }
+     printf("The upper case string is:%s",str);
+    return 0;
+}
